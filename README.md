@@ -1,18 +1,13 @@
-# Swift & iOS Bootcamp Exercises
+#  Kotlin & Android Mini Exercises
 
-This repository contains mini-projects and my capstone project developed during the **TechCareer.net Swift Bootcamp** to improve my skills in iOS development, UI/UX design, and application architecture (MVVM).
+This repository consolidates basic-level practices, UI experiments, and mini-applications I developed with **Kotlin** during my learning process of the Android development ecosystem.
 
-The projects are organized into folders as listed below:
-
-| Project Folder | Project Summary | Tech Stack |
+| Project Folder | Project Summary | Key Concepts |
 | :--- | :--- | :--- |
-| **[📂 FilmSepeti](./FilmSepeti)** | **(Capstone Project)** Comprehensive movie ordering, cart management, and grid listing flows. | SwiftUI, MVVM, async/await, Repository Pattern |
-| **[📂 GetirClone](./GetirClone)** | Scalable UI clone of the Getir app's home screen. | SwiftUI |
-| **[📂 MyContacts](./MyContacts)** | Basic contact registration and directory management app with local database support. | UIKit, MVVM, SQLite |
-| **[📂 ProductListApp](./ProductListApp)** | Basic product listing interface working with mock JSON data. | SwiftUI, MVVM, URLSession |
-| **[📂 SwiftUIDesignPractice](./SwiftUIDesignPractice)** | Pizza-themed interface design practice with Dark/Light mode support. | SwiftUI, Localization |
-| **[📂 MovieApp](./MovieApp)** | MVVM-based movie listing app with a configured DAO layer. | Swift, MVVM, DAO |
-| **[📂 ToDos](./ToDos)** | Basic task (To-Do) addition, deletion, and listing interface. | Swift |
+| **[📂 Address-Book](./Address-Book)** | Basic contact management application developed with database integration. | Kotlin, MVVM, Room/SQLite |
+| **[📂 Learning-Navigation](./Learning-Navigation)** | Screen transition practices using the Android Navigation Component. | Kotlin, Navigation Component |
+| **[📂 MovieApp](./MovieApp)** | Listing movie data and displaying detail screens. | Kotlin, UI Layouts |
+| **[📂 Calculator](./Calculator)** | Basic arithmetic calculator with a user-friendly interface. | Kotlin, Android UI |
 
 ---
-*For my comprehensive iOS projects (CineScope, PettiCare, etc.) and professional portfolio, please visit my main [GitHub Profile](https://github.com/aysenurkendirci).*
+*Note: This repository is organized to archive my past practice work. For my current and comprehensive mobile/backend projects, you can review my main [GitHub Profile](https://github.com/aysenurkendirci).*
