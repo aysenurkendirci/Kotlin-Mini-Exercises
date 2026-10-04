@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/sayiGoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="right"
+        android:padding="16dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnAC"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnAC"
+                android:text="AC"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnArtıEksı"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnSayiTik"
+                android:text="+/-"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnKalan"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnYuzdeTik"
+            android:text="%"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnBolme"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnOptik"
+                android:text="/"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="7"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="8"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="9"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnCarpma"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnOptik"
+                android:text="*"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="4"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="5"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="6"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnCıkarma"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnOptik"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="1"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="2"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="3"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnToplama"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA500"
+                android:onClick="btnOptik"
+                android:text="+"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="0"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnVırgul"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text=","
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnNokta"
+                android:layout_weight="1"
+                android:backgroundTint="#A0A0A0"
+                android:onClick="btnSayiTik"
+                android:text="."
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnSonuc"
+                android:layout_weight="1"
+                android:backgroundTint="#F6A40C"
+                android:onClick="btnEsittirTik"
+                android:text="="
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+
